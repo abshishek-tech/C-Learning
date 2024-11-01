@@ -1,3 +1,4 @@
+// binary representation should be of 10101010... or 101010101... pattern
 #include <stdio.h>
 
 int main()
