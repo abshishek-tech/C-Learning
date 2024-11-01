@@ -1,3 +1,4 @@
+// convert user inputted positive integer to binary
 #include<stdio.h>
 #include<math.h> // when compiling use: gcc file_name -lm
 unsigned long long int main() {

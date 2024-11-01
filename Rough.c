@@ -1,41 +1,31 @@
 #include <stdio.h>
 
-int main()
-{
-    // Variable declarations
-    int rows;
+int main() {
+    int n, i, search, found = 0;
 
-    // Prompt the user to input the number of rows for Pascal's Triangle
-    scanf("%d", &rows);
+    // Input size of the array
+   
+    scanf("%d", &n);
 
-    // Check if the number of rows is positive
-    if (rows <= 0)
-    {
-        printf("Error: Number of rows should be greater than zero.\n");
-        return 1; // Exit the program with an error
+    // Declare the array
+    int arr[n];
+
+    // Input elements of the arrays
+    
+    for (i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
 
-    // Generate Pascal's Triangle
-    for (int i = 0; i < rows; i++)
-    {
-        // Print leading spaces for alignment
-        for (int j = 0; j < rows - i - 1; j++)
-        {
-            printf(" ");
+    // Input the element to search for
+    
+    scanf("%d", &search);
+
+    // Search for the element
+    for (i = 0; i < n; i++) {
+        if (arr[i] == search) {
+            printf("Element %d found at index %d\n", search, i);
+            found = 1; // Set found flag
+            break;     // Exit loop if found
         }
-
-        // Initialize the first value of the row
-        int value = 1;
-
-        // Print the values in the current row
-        for (int j = 0; j <= i ; j++)
-        {
-            printf("%d ", value);
-            // Update value for the next position in the row
-            value = value * (i - j) / (j + 1);
-        }
-
-        // Move to the next line after printing a row
-        printf("\n");
     }
-}    
+}
