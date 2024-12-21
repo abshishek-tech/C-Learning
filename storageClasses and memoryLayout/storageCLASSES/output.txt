@@ -1,0 +1,40 @@
+A program to demonstrate Storage Classes in C
+
+
+Demonstrating auto class
+
+Value of the variable 'a' declared as auto: 32
+--------------------------------
+Demonstrating register class
+
+Value of the variable 'b' declared as register: 71
+--------------------------------
+Demonstrating extern class
+
+Value of the variable 'x' declared as extern: 0
+Modified value of the variable 'x' declared as extern: 2
+--------------------------------
+Demonstrating static class
+
+Declaring 'y' as static inside the loop.
+But this declaration will occur only once as 'y' is static.
+If not, then every time the value of 'y' will be the declared value 5 as in the case of variable 'p'
+
+Loop started:
+
+The value of 'y', declared as static, in 1 iteration is 6
+The value of non-static variable 'p', in 1 iteration is 11
+
+The value of 'y', declared as static, in 2 iteration is 7
+The value of non-static variable 'p', in 2 iteration is 11
+
+The value of 'y', declared as static, in 3 iteration is 8
+The value of non-static variable 'p', in 3 iteration is 11
+
+The value of 'y', declared as static, in 4 iteration is 9
+The value of non-static variable 'p', in 4 iteration is 11
+
+Loop ended:
+--------------------------------
+
+Storage Classes demonstrated

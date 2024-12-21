@@ -1,4 +1,4 @@
-// find all the numbers divisible by 3 and 5 between o and n
+// find all the numbers divisible by 3 and 5 between 0 and n
 # include<stdio.h>
 int main() {
     int n,b=15;
