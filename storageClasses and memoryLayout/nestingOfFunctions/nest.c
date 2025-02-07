@@ -9,8 +9,12 @@ int main(void)
 
 	int view() 
 	{ 
+<<<<<<< HEAD
 		printf("View\n")
 		
+=======
+		printf("View\n"); 
+>>>>>>> refs/remotes/origin/main
 		return 1; 
 	} 
 
