@@ -17,9 +17,5 @@ int main()
 int a = pow(N,0.5) - (N % N);
 printf("Number of open doors = %d\n", a);
     return 0;
-<<<<<<< HEAD
 }
 // 2nd method to solve would be to count the number of perfect squares upto the number of doors and that would be the answer (as only perfect square numbers will have odd number of passes)
-=======
-}
->>>>>>> refs/remotes/origin/main
