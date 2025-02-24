@@ -1,6 +1,5 @@
-// C++ Program to Check if binary representation 
-// of a number is palindrome 
-#include <stdio.h>
+// C Program to Check if binary representation of a number is palindrome 
+# include <stdio.h>
 # include<math.h> 
 
 // Function to check if binary representation is a palindrome
